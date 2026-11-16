@@ -1,0 +1,20 @@
+Bước 1: Phân tích lỗi
+
+[language] dùng ngoặc vuông còn {audience} dùng ngoặc nhọn. máy phải nhớ 2 kiểu ngoặc nên dễ bỏ sót.
+tên biến viết thường, lúc có dấu lúc không, nên khó đoán đâu là biến khi nhìn nhanh.
+nếu người điền viết sai ngoặc hoặc thiếu ngoặc thì chương trình không nhận ra biến, AI sẽ nhận nhầm chữ đó là nội dung thường.
+khi prompt dài có nhiều ngoặc khác trong nội dung thì rất dễ nhầm lẫn.
+
+Bước 2: Đồng bộ biến số
+
+Prompt sau khi sửa:
+
+Hãy viết một bài chia sẻ về Cấu trúc Prompt Tiêu chuẩn & Định dạng bằng ngôn ngữ [NGÔN_NGỮ]. Dành cho đối tượng [ĐỐI_TƯỢNG].
+
+Kết quả chạy thử
+
+Điền dữ liệu: [NGÔN_NGỮ] = tiếng Việt, [ĐỐI_TƯỢNG] = sinh viên năm nhất ngành công nghệ thông tin.
+
+Kết quả:
+
+cấu trúc prompt tiêu chuẩn thường gồm vai trò, nhiệm vụ, bối cảnh, ví dụ và định dạng đầu ra. viết đủ các phần này thì AI sẽ hiểu đúng ý mình hơn. phần định dạng cũng quan trọng vì bạn có thể yêu cầu trả về bảng, gạch đầu dòng hoặc JSON để dễ dùng lại. vì vậy trước khi nhờ AI làm việc gì, hãy viết prompt có cấu trúc rõ ràng.
